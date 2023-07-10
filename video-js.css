@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button &gt; .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,7 +7,7 @@
   height: 100%;
 }
 
-.vjs-button &gt; .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
   text-align: center;
 }
 
@@ -571,7 +571,7 @@ body.vjs-full-window {
   overflow: auto;
 }
 
-.video-js .vjs-modal-dialog &gt; * {
+.video-js .vjs-modal-dialog > * {
   box-sizing: border-box;
 }
 
@@ -602,7 +602,7 @@ body.vjs-full-window {
   overflow: auto;
 }
 
-.vjs-menu .vjs-menu-content &gt; * {
+.vjs-menu .vjs-menu-content > * {
   box-sizing: border-box;
 }
 
@@ -810,12 +810,12 @@ body.vjs-full-window {
   padding-right: 1em;
 }
 
-.vjs-button &gt; .vjs-icon-placeholder:before {
+.vjs-button > .vjs-icon-placeholder:before {
   font-size: 1.8em;
   line-height: 1.67;
 }
 
-.vjs-button &gt; .vjs-icon-placeholder {
+.vjs-button > .vjs-icon-placeholder {
   display: block;
 }
 
@@ -825,7 +825,7 @@ body.vjs-full-window {
   text-shadow: 0em 0em 1em white;
 }
 
-.video-js *:not(.vjs-visible-text) &gt; .vjs-control-text {
+.video-js *:not(.vjs-visible-text) > .vjs-control-text {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -1412,7 +1412,7 @@ video::-webkit-media-text-track-display {
   display: none;
 }
 
-.vjs-playback-rate &gt; .vjs-menu-button,
+.vjs-playback-rate > .vjs-menu-button,
 .vjs-playback-rate .vjs-playback-rate-value {
   position: absolute;
   top: 0;
@@ -1686,7 +1686,7 @@ video::-webkit-media-text-track-display {
     grid-template-columns: 1fr;
   }
 }
-.vjs-track-setting &gt; select {
+.vjs-track-setting > select {
   margin-right: 1em;
   margin-bottom: 0.5em;
 }
@@ -1701,7 +1701,7 @@ video::-webkit-media-text-track-display {
   display: inline-block;
 }
 
-.vjs-text-track-settings fieldset span &gt; select {
+.vjs-text-track-settings fieldset span > select {
   max-width: 7.3em;
 }
 
@@ -1747,7 +1747,7 @@ video::-webkit-media-text-track-display {
 }
 
 @media print {
-  .video-js &gt; *:not(.vjs-tech):not(.vjs-poster) {
+  .video-js > *:not(.vjs-tech):not(.vjs-poster) {
     visibility: hidden;
   }
 }
