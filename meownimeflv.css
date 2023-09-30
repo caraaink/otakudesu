@@ -1,3 +1,14 @@
+/*(General)*/.Svg-ic{display:inline-flex;align-self:center;position:relative;height:1em;width:1em}
+.Svg-ic svg{height:1em;width:1em;bottom:-0.125em;position:absolute}
+.Hide{position:absolute;visibility:hidden}
+.Clfx:after{clear:both;display:block;overflow:hidden;content:''}
+.Container{padding:0 1rem}
+.Bglg{background:#00b0ff;background:-webkit-linear-gradient(left,  #00b0ff 0%,#d500f9 100%);background:linear-gradient(to right, #00b0ff 0%,#d500f9 100%)}
+[class*="Btn"],button,input[type="submit"]{cursor:pointer;transition:.2s}
+button,input[type="submit"]{border:0;background-color:#00b0ff;color:#fff;padding:.5rem 1rem;line-height:1.5rem;border-radius:3px}
+#Form-User,.Form-Search,.Header.open .Logo-Top,.Header.open .Header-Top>li,#Form-User.AACont .SignUp,#Form-User.AACont.open .Login,.tab-pane{opacity:0;transform:scale3d(.3,.3,0);transition:.2s;visibility:hidden}
+.open>#Form-User,.Header.open .Form-Search,#Form-User.AACont.open .SignUp,.tab-pane.active{transform:none;opacity:1;visibility:visible}
+
 /*(Header)*/#AnimeFlv{padding-top:50px}
 .Header{position:fixed;left:0;top:0;width:100%;transition:.2s;z-index:3}
 .Header:after{width:0;height:2px;top:100%;content:'';position:absolute;left:0;transition:.2s;background-color:#e90052}
